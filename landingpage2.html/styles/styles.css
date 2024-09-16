@@ -1,0 +1,228 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #28284d; /* Fundo neutro escuro */
+    color: #f5f5f5; /* Texto claro para contraste */
+}
+
+/* Estilos do Cabeçalho */
+.header {
+    background-color: #1e1e2f; /* Fundo mais escuro no cabeçalho */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 5px solid #00bcd4; /* Detalhe vibrante */
+}
+
+.header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #00bcd4; /* Título vibrante */
+}
+
+.header p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: #ccc; /* Texto suave */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centraliza a lista de navegação */
+    transition: transform 0.3s;
+}
+
+nav ul li a {
+    background-color: #00bcd4;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #00bcd4;
+    transform: translateY(-10px)
+}
+
+/* Estilos das Seções */
+.palestrantes h2, .programacao h2, .inscricao h2, .local h2 {
+    text-align: center;
+    margin: 40px 0;
+    color: #00bcd4; /* Seções vibrantes */
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.card {
+    background-color: #33334d; /* Cartões mais escuros */
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    background-color: #00bcd4;
+    transform: translateY(-10px); /* Efeito hover com elevação */
+}
+
+.card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    border: solid #00bcd4 4px; /* Borda vibrante */
+}
+
+.programacao .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline .evento {
+    background-color: #1e1e2f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline .evento h3 {
+    color: #00bcd4;
+}
+
+.timeline .evento p {
+    color: #ccc;
+}
+
+.inscricao form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.inscricao input {
+    padding: 12px;
+    border: 2px solid #00bcd4;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #1e1e2f;
+    color: #fff;
+}
+
+.inscricao input::placeholder {
+    color: #ccc;
+}
+
+.enviar {
+    background-color: #00bcd4;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.enviar:hover {
+    background-color: #ffffff;
+    color: #0097a7;
+}
+
+.local {
+    padding: 20px; /* Adicionado para garantir que o conteúdo não fique colado nas bordas */
+}
+
+.local iframe {
+    width: calc(100% - 40px); /* Reduzido para criar espaçamento lateral */
+    height: 300px;
+    border-radius: 8px;
+    margin: 0 auto; /* Centraliza o iframe */
+    border: solid #00bcd4 5px;
+}
+
+.local ul {
+    padding: 0;
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+.local li {
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+/* Estilo do Botão "Voltar ao Topo" */
+.back-to-top {
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 20px; /* Espaçamento do fundo */
+    right: 20px; /* Espaçamento da lateral direita */
+    background-color: #00bcd4; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    font-size: 1.2em; /* Tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra do botão */
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave para cor e transformação */
+}
+
+.back-to-top:hover {
+    background-color: #4809d2; /* Cor de fundo quando o mouse está sobre o botão */
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 5px solid #00bcd4;
+}
+
+footer p {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.github {
+    display: inline-block;
+    background-color: #0097a7;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.github:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
