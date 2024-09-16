@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5e1d2;
+    font-family: 'Poppins', sans-serif; 
+    color: #8c6046;
+    margin: 20px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif; 
+    color: #8c6046;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p, ul, li {
+    font-family: 'Poppins', sans-serif; 
+    text-align: justify;
+}
+
+/* Estilos do Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #8c6046;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #a67857;
+}
+
+/* Estilos da Navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8c6046;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #8c6046;
+}
+
+/* Estilos do Menu */
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #8c6046;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+/* Estilos da Sessão Ambiente */
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagens img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Estilos da Localização */
+.localizacao {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.localizacao .map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.localizacao iframe {
+    width: 100%;
+    max-width: 300px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    border: none;
+}
+
+
+
+/* Estilos do Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.github {
+    display: inline-block;
+    background-color: #8c6046;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.github:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+a[href="#topo"] {
+    display: inline-block;
+    background-color: #8c6046;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+a[href="#topo"]:hover {
+    background-color: #ffffff;
+    color: #8c6046;
+}
