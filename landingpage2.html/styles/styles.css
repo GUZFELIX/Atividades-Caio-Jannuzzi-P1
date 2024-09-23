@@ -1,4 +1,4 @@
-/* Estilos Globais */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,29 +7,28 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #28284d; /* Fundo neutro escuro */
-    color: #f5f5f5; /* Texto claro para contraste */
+    background-color: #28284d; 
+    color: #f5f5f5; 
 }
 
-/* Estilos do Cabeçalho */
 .header {
-    background-color: #1e1e2f; /* Fundo mais escuro no cabeçalho */
+    background-color: #1e1e2f; 
     color: #fff;
     padding: 50px 0;
     text-align: center;
-    border-bottom: 5px solid #00bcd4; /* Detalhe vibrante */
+    border-bottom: 5px solid #00bcd4; 
 }
 
 .header h1 {
     font-size: 3.5em;
     margin-bottom: 10px;
-    color: #00bcd4; /* Título vibrante */
+    color: #00bcd4; 
 }
 
 .header p {
     font-size: 1.3em;
     margin-bottom: 20px;
-    color: #ccc; /* Texto suave */
+    color: #ccc;
 }
 
 nav ul {
@@ -37,7 +36,7 @@ nav ul {
     padding: 0;
     display: flex;
     gap: 20px;
-    justify-content: center; /* Centraliza a lista de navegação */
+    justify-content: center;
     transition: transform 0.3s;
 }
 
@@ -50,7 +49,7 @@ nav ul li a {
     font-size: 1em;
     border-radius: 5px;
     transition: background-color 0.3s;
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none; 
 }
 
 nav ul li a:hover {
@@ -74,7 +73,7 @@ nav ul li a:hover {
 }
 
 .card {
-    background-color: #33334d; /* Cartões mais escuros */
+    background-color: #33334d; 
     border-radius: 8px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -84,7 +83,7 @@ nav ul li a:hover {
 
 .card:hover {
     background-color: #00bcd4;
-    transform: translateY(-10px); /* Efeito hover com elevação */
+    transform: translateY(-10px); 
 }
 
 .card img {
@@ -154,14 +153,14 @@ nav ul li a:hover {
 }
 
 .local {
-    padding: 20px; /* Adicionado para garantir que o conteúdo não fique colado nas bordas */
+    padding: 20px; 
 }
 
 .local iframe {
-    width: calc(100% - 40px); /* Reduzido para criar espaçamento lateral */
+    width: calc(100% - 40px);
     height: 300px;
     border-radius: 8px;
-    margin: 0 auto; /* Centraliza o iframe */
+    margin: 0 auto;
     border: solid #00bcd4 5px;
 }
 
@@ -176,25 +175,25 @@ nav ul li a:hover {
     color: #ccc;
 }
 
-/* Estilo do Botão "Voltar ao Topo" */
+
 .back-to-top {
-    position: fixed; /* Fixa o botão na tela */
-    bottom: 20px; /* Espaçamento do fundo */
-    right: 20px; /* Espaçamento da lateral direita */
-    background-color: #00bcd4; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    padding: 15px 20px; /* Espaçamento interno */
-    border-radius: 8px; /* Bordas arredondadas */
-    font-size: 1.2em; /* Tamanho da fonte */
-    text-align: center; /* Alinha o texto ao centro */
-    text-decoration: none; /* Remove o sublinhado padrão */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra do botão */
-    transition: background-color 0.3s, transform 0.3s; /* Transição suave para cor e transformação */
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 20px; 
+    border-radius: 8px; 
+    font-size: 1.2em;
+    text-align: center; 
+    text-decoration: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .back-to-top:hover {
-    background-color: #4809d2; /* Cor de fundo quando o mouse está sobre o botão */
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    background-color: #4809d2; 
+    transform: scale(1.1);
 }
 
 /* Estilos do Rodapé */
