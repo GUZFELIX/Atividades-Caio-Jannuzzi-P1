@@ -1,0 +1,216 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  .hero-section {
+    background-image: url('caminho/para/imagem-yoga.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .overlay p {
+    font-size: 1.5rem;
+  }
+  
+  /* Tipos de Aulas */
+  .classes-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .classes-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .classes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .class-item {
+    width: 30%;
+  }
+  
+  .class-item img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .class-item h3 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+  }
+  
+  .class-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Depoimentos */
+  .testimonials-section {
+    padding: 50px;
+    background-color: #e6f7f5;
+    text-align: center;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+    font-style: italic;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .testimonial h4 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Instrutores */
+  .instructors-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .instructors-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .instructor {
+    margin: 30px auto;
+    max-width: 300px;
+  }
+  
+  .instructor img {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid #85c7b7 5px;
+  }
+  
+  .instructor h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+  
+  /* Contato */
+  .contact-section {
+    padding: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-section button {
+    background-color: #85c7b7;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover {
+    background-color: #75b2a3;
+  }
+  
+  .back-to-top {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    background-color: #75b2a3;
+    color: white;
+    padding: 15px 20px; 
+    border-radius: 8px;
+    font-size: 1.2em; 
+    text-align: center; 
+    text-decoration: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.back-to-top:hover {
+  background-color: #333; 
+  transform: scale(1.1); 
+}
+
+.github {
+  display: inline-block;
+  background-color: #75b2a3;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.github:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
